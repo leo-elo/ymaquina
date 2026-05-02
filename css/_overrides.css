@@ -1,0 +1,184 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+
+p,h1,h2,h3,h4,h5,h6,a{
+  font-family: "Nunito", sans-serif;
+}
+p {
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 1.3em;
+}
+i.fas.fa-adjust.fa-fw {
+  display: none ;
+}
+
+
+h1.single-title.animate__animated.animate__pulse.animate__faster,
+h2.single-title.animate__animated.animate__pulse.animate__faster{
+text-align: left;
+font-size: 1.7em;
+
+}
+
+
+a:hover,
+.archive .archive-item-link:hover,
+.single .content a:active, .single .content a:hover
+ {
+  color: black;
+  font-weight: 800;
+}
+header:hover{
+  box-shadow: 0 0 .25rem 0 rgba(0,0,0,0.4)
+}
+#logo-footer{
+  height: 3.5em;
+  width: auto;
+}
+.footer-line {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.page.home{
+  position: relative;
+  height: 100vh;
+  overflow: hidden;
+
+}
+.home .single{
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* Centra verticalmente */
+  align-items: center;     /* Centra horizontalmente */
+  height: 100%;  
+ 
+}
+
+
+#header-desktop .header-wrapper{
+  background-color: white;
+}
+header .logo {
+    width: auto;
+    height: 1.5;
+  }
+
+  a.menu-item.theme-switch{
+    display: none;
+  }
+
+  .archive .archive-item-date {
+    width: 6em ;
+  }
+
+  .gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+    margin-top: 2rem;
+  }
+  
+  .gallery a {
+    display: block;
+    width: 30%;
+  }
+  
+  .gallery img {
+    width: 100%;
+    height: auto;
+    transition: transform 0.3s, box-shadow 0.3s;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+
+  }
+  .gallery a{
+    font-size: .8em;
+    text-align: center;
+    font-weight: 700;
+  }
+  
+  .gallery img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    border: solid black 2px;
+
+  }
+
+  .single .content a, .single .content a::before, .single .content a::after{
+    background-color: #FFE100;;
+
+    color: black;
+
+
+  }
+  .video-registros{
+    background-color: #1A0A00   ;
+    padding: 1rem;
+    border: solid 1px  #ff6600;
+  }
+
+  .video-container {
+    position: relative;
+    padding-bottom: 56.25%; /* 16:9 */
+    height: 0;
+    overflow: hidden;
+    max-width: 100%;
+    margin: 2rem 0px;
+    background-color: grey;
+    border:solid 2px  black ;
+  }
+  
+  .video-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+  .ytp-title-channel-logo{
+
+    display: none;
+
+  }
+
+  .single .content hr {
+    border: none;
+    border-top: 3px solid #ff6600;
+    margin: 5rem 0 2rem;
+  }
+
+  .single .content img {
+    margin: 3em 1em ;
+
+
+
+  }
+  .comparte {
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: .8em;
+    letter-spacing: .2em;
+    line-height: 0px;
+  }
+
+  #content{
+    hyphens: auto;
+  }
+  .semblanza{
+    font-size: 1em;
+    font-weight: 300;
+    hyphens: none;
+  }
+  .card.full img {
+    margin: 0px;
+  }
+
+
+  
+
+
+  

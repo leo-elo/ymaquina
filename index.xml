@@ -1,0 +1,17 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>Ymaquina</title>
+        <link>https://ymaquina.litelat.net/</link>
+        <description>This is my cool site</description>
+        <generator>Hugo -- gohugo.io</generator><language>es</language><lastBuildDate>Sat, 23 May 2026 20:48:45 -0600</lastBuildDate>
+            <atom:link href="https://ymaquina.litelat.net/index.xml" rel="self" type="application/rss+xml" />
+        <item>
+    <title>Binevenida</title>
+    <link>https://ymaquina.litelat.net/posts/binevenida/</link>
+    <pubDate>Fri, 25 Apr 2025 12:34:37 -0600</pubDate>
+    <author>xxxx</author>
+    <guid>https://ymaquina.litelat.net/posts/binevenida/</guid>
+    <description><![CDATA[<p>hola</p>]]></description>
+</item>
+</channel>
+</rss>
