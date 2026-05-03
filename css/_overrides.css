@@ -137,6 +137,7 @@ h2.single-title, .archive .single-title{
   width: 100%;
   height: auto;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s, box-shadow 0.3s;
 }
 
 .video-registros {
@@ -208,7 +209,7 @@ a:hover,
     border: solid black 2px;
   }
   .single .content img {
-    margin: 3em 2em;
+    margin:0px;
   }
 }
 
