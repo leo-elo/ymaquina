@@ -1,8 +1,7 @@
 /* ================================
    1. FUENTES
    ================================ */
-@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
-
+@import url(https://fonts.bunny.net/css?family=nunito:200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900);
 p, h1, h2, h3, h4, h5, h6, a {
   font-family: "Nunito", sans-serif;
 }
@@ -17,7 +16,24 @@ p {
 }
 
 .single .content p{
+  margin: 2em 0px;
+  max-width: 50ch;
+}
+.page.home .intro-edicion-texto p{
+  max-width: 75ch;
+  margin: auto;
   margin-bottom: 1.5em;
+   margin-top: .7em;
+}
+
+.entrada-intro{
+  text-transform: uppercase;
+  font-size: .8em;
+  letter-spacing: .1em;
+  font-weight: 700;
+}
+p.emblema{
+  margin-top:1.5em !important;
 }
 
 /* ================================
@@ -38,6 +54,7 @@ header .logo {
 }
 #header-desktop .header-wrapper {
   background-color: white;
+  border-bottom: 2px solid black;
 }
 .header-container {
   border-bottom: 2px solid black;}
@@ -109,12 +126,29 @@ h2.single-title, .archive .single-title{
   hyphens: auto;
   margin-top: 3em;
 }
+.intro-edicion-texto a{
+  font-style: italic;
+  background-color: white !important;
+  font-weight: 600;
+
+
+}
+
+.intro-edicion-texto a:hover{
+    text-decoration: underline !important;
+
+
+}
 .single .content a,
 .single .content a::before,
 .single .content a::after {
   background-color: #FFE100;
   color: black;
 }
+span.title{
+      hyphens: none;
+}
+
 .single .content hr {
   border: none;
   border-top: 3px solid #ff6600;
@@ -146,6 +180,9 @@ h2.single-title, .archive .single-title{
   height: auto;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   transition: transform 0.3s, box-shadow 0.3s;
+}
+.intro-edicion-texto{
+    hyphens: none;
 }
 
 .video-registros {
@@ -226,4 +263,13 @@ a:hover,
   p {
     font-size: 1.3em;
   }
+  #content .content p {
+
+  }
+  .intro-edicion-texto{
+
+    hyphens: none;
+    margin: auto;
+
+}
 }
